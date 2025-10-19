@@ -53,7 +53,7 @@ int main() {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             if (matriz3[i][j] == target) {
-                printf("Elemento %d encontrado na posição (%d, %d)\n", target, i, j);
+                printf("Elemento(o valor) %d encontrado na posição(indice) (%d, %d)\n", target, i, j);
                 found = 1; // Elemento encontrado
                 break; // Sai do loop interno
             }
